@@ -3,6 +3,8 @@ import Footer from './Footer.jsx'
 import Card from './Card.jsx'
 import Button from './Button.jsx'
 import Student from './Student.jsx'
+import List from './List.jsx'
+
 function App() {
   return(
     <>
@@ -13,9 +15,11 @@ function App() {
     <Student name="Chris" age={29}></Student>
     <Student name="John" age={35}></Student>
     <Student name="Michael" age={40}></Student>
-    <Student name="Joe" age={43}></Student>
+    <Student></Student>
+    <List></List>
+
     </>
-  );
+  ); 
   
 }
 

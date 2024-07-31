@@ -14,3 +14,8 @@ Student.propTypes={
     age: PropTypes.number,
 
 }
+Student.defaultProps={
+    name: "Guest",
+    age: 0,
+
+}
