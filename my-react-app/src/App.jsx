@@ -9,7 +9,7 @@ import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
 import Onchange from './Onchange.jsx'
 import ColorPicker from './ColorPicker.jsx'
-
+import UpdateObject from './UpdateObject.jsx'
 function App() {
   return(
     <>
@@ -27,6 +27,7 @@ function App() {
     <Counter></Counter>
     <Onchange></Onchange>
     <ColorPicker></ColorPicker>
+    <UpdateObject></UpdateObject>
     </>
   ); 
   
