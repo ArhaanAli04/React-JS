@@ -4,6 +4,8 @@ import Card from './Card.jsx'
 import Button from './Button.jsx'
 import Student from './Student.jsx'
 import List from './List.jsx'
+import Click from './Click.jsx'
+import MyComponent from './MyComponent.jsx'
 
 function App() {
   return(
@@ -17,6 +19,8 @@ function App() {
     <Student name="Michael" age={40}></Student>
     <Student></Student>
     <List></List>
+    <Click></Click>
+    <MyComponent></MyComponent>
 
     </>
   ); 
