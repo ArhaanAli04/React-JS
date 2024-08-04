@@ -8,6 +8,7 @@ import Click from './Click.jsx'
 import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
 import Onchange from './Onchange.jsx'
+import ColorPicker from './ColorPicker.jsx'
 
 function App() {
   return(
@@ -25,7 +26,7 @@ function App() {
     <MyComponent></MyComponent>
     <Counter></Counter>
     <Onchange></Onchange>
-
+    <ColorPicker></ColorPicker>
     </>
   ); 
   

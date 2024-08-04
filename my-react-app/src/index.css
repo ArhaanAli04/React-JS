@@ -109,3 +109,24 @@ button:focus-visible {
 .counter-button:hover{
   background-color: rgb(91, 128, 157);
 }
+.color-picker-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid grey;
+}
+.color-picker-display{
+  width: 300px;
+  height: 300px;
+  border: 1px solid;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  transition: 0.25s ease;
+}
+.color-picker-display p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
