@@ -7,6 +7,7 @@ import List from './List.jsx'
 import Click from './Click.jsx'
 import MyComponent from './MyComponent.jsx'
 import Counter from './Counter.jsx'
+import Onchange from './Onchange.jsx'
 
 function App() {
   return(
@@ -23,6 +24,7 @@ function App() {
     <Click></Click>
     <MyComponent></MyComponent>
     <Counter></Counter>
+    <Onchange></Onchange>
 
     </>
   ); 
