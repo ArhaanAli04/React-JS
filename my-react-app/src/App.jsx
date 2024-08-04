@@ -6,6 +6,7 @@ import Student from './Student.jsx'
 import List from './List.jsx'
 import Click from './Click.jsx'
 import MyComponent from './MyComponent.jsx'
+import Counter from './Counter.jsx'
 
 function App() {
   return(
@@ -21,6 +22,7 @@ function App() {
     <List></List>
     <Click></Click>
     <MyComponent></MyComponent>
+    <Counter></Counter>
 
     </>
   ); 

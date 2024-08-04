@@ -84,3 +84,28 @@ button:focus-visible {
   border-radius: 5px;
   
 }
+.counter-container{
+  text-align: center;
+  border: solid grey;
+  padding: 5px;
+  border-radius: 10px;
+}
+.counter-display{
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.counter-button{
+  background-color: rgb(109, 126, 202);
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  margin: 0 5px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.counter-button:hover{
+  background-color: rgb(91, 128, 157);
+}
