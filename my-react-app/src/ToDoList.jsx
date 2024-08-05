@@ -14,13 +14,22 @@ function ToDoList(){
         
     }
     function deleteTask(index){
-
+        const updateTasks=task.filter((_,i)=>i!=index);
+        setTask(updateTasks);
     }
     function moveTaskUp(index){
-
+        if(index>0){
+            const arr=[...task];// create new array
+            [arr[index],arr[index-1]]=[arr[index-1],arr[index]];//swap
+            setTask(arr);
+        }
     }
     function moveTaskDown(index){
-
+        if(index<task.length-1){
+            const arr=[...task];// create new array
+            [arr[index],arr[index+1]]=[arr[index+1],arr[index]];//swap
+            setTask(arr);
+        }
     }
     return(<div className="to-do-list">
                 <h1>To-do-List</h1>
