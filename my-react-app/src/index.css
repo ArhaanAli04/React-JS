@@ -130,3 +130,51 @@ button:focus-visible {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 20px;
 }
+.to-do-list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid grey;
+  border-radius: 5px;
+  height: 400px;
+  background: linear-gradient(to right,black,rgb(163, 9, 9));
+}
+.add-button{
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(163, 163, 221);
+  margin-left: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 70px;
+  height: 20px;
+  cursor: pointer;
+}
+.add-button:hover{
+  background-color: rgb(114, 114, 194);
+}
+.delete-button{
+  border-radius: 10px;
+  border: none;
+  background-color:  rgb(163, 163, 221);
+  margin-left: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 70px;
+  height: 20px;
+  cursor: pointer;
+
+}
+.move-button{
+  border-radius: 10px;
+  border: none;
+  background-color:  rgb(163, 163, 221);
+  margin: 4px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 70px;
+  height: 20px;
+  cursor: pointer;
+
+}
+
+.delete-button:hover{
+  background-color: rgb(114, 114, 194);
+}
