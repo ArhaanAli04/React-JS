@@ -11,7 +11,7 @@ import Onchange from './Onchange.jsx'
 import ColorPicker from './ColorPicker.jsx'
 import UpdateObject from './UpdateObject.jsx'
 import ToDoList from './ToDoList.jsx'
-import MyComponent2 from './MyComponent2.jsx'
+import DigitalClock from './DigitalClock.jsx'
 function App() {
   return(
     <>
@@ -31,7 +31,7 @@ function App() {
     <ColorPicker></ColorPicker>
     <UpdateObject></UpdateObject>
     <ToDoList></ToDoList>
-    <MyComponent2></MyComponent2>
+    <DigitalClock></DigitalClock>
     </>
   ); 
   

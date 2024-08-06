@@ -178,3 +178,13 @@ button:focus-visible {
 .delete-button:hover{
   background-color: rgb(114, 114, 194);
 }
+.clock-container{
+  border: solid lightblue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 340px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
