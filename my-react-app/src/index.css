@@ -188,3 +188,29 @@ button:focus-visible {
   height: 340px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.stopwatch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid grey;
+  border-radius: 10px;
+  height: 200px;
+}
+.display-stopwatch{
+  font-family: monospace;
+  font-size: 50px;
+}
+.controls-stopwatch button{
+  margin: 10px;
+  width: 80px;
+  height: 30px;
+  background-color: rgb(149, 167, 239);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+ 
+}
+.controls-stopwatch button:hover{
+  background-color: rgb(201, 201, 224);
+}

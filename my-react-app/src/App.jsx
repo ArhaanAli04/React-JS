@@ -12,6 +12,7 @@ import ColorPicker from './ColorPicker.jsx'
 import UpdateObject from './UpdateObject.jsx'
 import ToDoList from './ToDoList.jsx'
 import DigitalClock from './DigitalClock.jsx'
+import Stopwatch from './Stopwatch.jsx'
 function App() {
   return(
     <>
@@ -32,6 +33,7 @@ function App() {
     <UpdateObject></UpdateObject>
     <ToDoList></ToDoList>
     <DigitalClock></DigitalClock>
+    <Stopwatch></Stopwatch>
     </>
   ); 
   
