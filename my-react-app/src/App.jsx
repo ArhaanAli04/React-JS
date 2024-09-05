@@ -30,7 +30,7 @@ function App() {
     <Counter></Counter>
     <Onchange></Onchange>
     <ColorPicker></ColorPicker>
-    <UpdateObject></UpdateObject>
+    
     <ToDoList></ToDoList>
     <DigitalClock></DigitalClock>
     <Stopwatch></Stopwatch>

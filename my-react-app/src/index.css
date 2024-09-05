@@ -138,6 +138,10 @@ button:focus-visible {
   border-radius: 5px;
   height: 400px;
   background: linear-gradient(to right,black,rgb(163, 9, 9));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .add-button{
   border-radius: 10px;
@@ -187,6 +191,10 @@ button:focus-visible {
   width: 200px;
   height: 340px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .stopwatch{
   display: flex;
@@ -196,6 +204,10 @@ button:focus-visible {
   border: solid grey;
   border-radius: 10px;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .display-stopwatch{
   font-family: monospace;
